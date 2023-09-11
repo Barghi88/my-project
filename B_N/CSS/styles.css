@@ -1,51 +1,96 @@
-* {
-    font-family: cursive;
-    box-sizing: border-box;
-    text-decoration: none;
+*{
+  font-family: cursive;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 input{
-    border-radius: 8px;
-    border-color: black;
-    background: rgb(233, 233, 233);
-    width: 96%;
-    line-height: 2.0;
+  border-radius: 8px;
+  border-color: black;
+  background: whitesmoke;
+  width: 96%;
+  line-height: 2.0;
 }
 input:hover{
-    background: wheat;
+  background: rgb(214, 214, 214);
 }
 label{
-    background: white;
+  background: white;
+  margin: -11px;
+}
+a{
+  color: #636363;
+}
+a:hover{
+  color: #a3a3a3;
+  background: #505050;
+  transition: background .9s;
+  border-radius: 15px;
+}
+/*......................CLASS.....................*/
+.in{
+  margin-top: 20px;
+  margin-left: 65px;
+  justify-content: center;
+}
+.a-sign{
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 15px;
 }
 .body{
-    background: #e3e3e3;
+  background: #e3e3e3;
 }
 .form{
-    margin-top: 70px;
-    margin-left: 485px;
-    border: 1px solid #636363;
-    width: 100%;
-    max-width: 360px;
-    border-radius: 10px;
-    padding: 15px;
-    background: white;
+  margin-top: 95px;
+  margin-left: 490px;
+  border: 1px solid #636363;
+  width: 100%;
+  max-width: 366px;
+  border-radius: 10px;
+  padding: 15px;
+  background: white;
 }
 .sign{
-    margin: 40px;
-    padding: 5px;
-    background: white;
+  margin: 50px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.man{
+  margin-left: -61px;
+}
+.woman{
+  margin-left: -84px;
+}
+.label{
+  margin-bottom: 20px;
+}
+.label2{
+  margin-bottom: 20px;
+}
+.submit{
+  padding: 5px;
+  background: #a3a3a3;
+}
+.submit:hover{
+    background: #636363;
+}
+/*...............ID................*/
+#sign{
+  margin: 50px;
 }
 #name{
-    margin: 10px;
+  margin: 10px;
 }
 #Lastname{
-    margin: 10px;
+  margin: 10px;
 }
 #email{
-    margin: 10px;
+  margin: 10px;
 }
 #password{ 
-    margin: 10px;
+  margin: 10px;
 }
 #button{
-    color: burlywood;
+  color: burlywood;
 }
