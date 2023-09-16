@@ -3,16 +3,6 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-input{
-  border-radius: 8px;
-  border-color: black;
-  background: whitesmoke;
-  width: 96%;
-  line-height: 2.0;
-}
-input:hover{
-  background: rgb(214, 214, 214);
-}
 label{
   background: white;
   margin: -11px;
@@ -27,10 +17,43 @@ a:hover{
   border-radius: 15px;
 }
 /*......................CLASS.....................*/
+input[type="radio"]{
+  accent-color: rgb(124 201 124);
+}
+.input{
+  border-radius: 8px;
+  border-color: black;
+  background: rgb(233, 233, 233);
+  width: 96%;
+  line-height: 3.0;
+  border: none;
+}
+.input:hover{
+  background: rgb(196, 196, 196);
+}
+.search{
+  font-size: 15px;
+  border-radius: 8px;
+  border-color: black;
+  background: rgb(233, 233, 233);
+  line-height: 2.4;
+  margin-left: 20px;
+  border: none;
+}
+.search:hover{
+  background: rgb(214, 214, 214);
+}
+.ab{
+  margin-left: 25px;
+}
+.us{
+  margin-left: 25px;
+}
+.up{
+  margin-left: 25px;
+}
 .in{
   margin-top: 20px;
-  margin-left: 65px;
-  justify-content: center;
 }
 .a-sign{
   padding: 10px;
@@ -38,7 +61,7 @@ a:hover{
   border-radius: 15px;
 }
 .body{
-  background: #e3e3e3;
+  background: rgb(124 201 124);
 }
 .form{
   margin-top: 95px;
@@ -77,7 +100,12 @@ a:hover{
 }
 /*...............ID................*/
 #sign{
-  margin: 50px;
+  background: rgb(124 201 124);
+  float: left;
+  overflow: hidden;
+  padding: 25px;
+  border-radius: 25px;
+
 }
 #name{
   margin: 10px;
