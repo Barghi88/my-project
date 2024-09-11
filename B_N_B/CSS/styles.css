@@ -1,0 +1,41 @@
+* {
+    font-family: verdana;
+    box-sizing: border-box;
+}
+#button{
+    color: burlywood;
+}
+.input{
+    border-radius: 8px;
+    border-color: black;
+    background-color: azure;
+    padding: 7px;
+    margin: 7px;
+    margin-left: 64px;
+}
+label{
+    margin: -6px;
+}
+.form{
+    float: center;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 200px;
+    margin-left: 460px;
+}
+.sign{
+    margin-left: 142px;
+}
+.submit{
+    border-radius: 8px;
+    border-color: black;
+    background-color: azure;
+    padding: 7px;
+    margin: 7px;
+}
+.submit:hover{
+    background: #636363;
+}
